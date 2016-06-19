@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    tools:context="com.tiderdev.dilo.forms.DetailActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/ic_account_box_black_24dp"
+            android:alpha="0.6"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:text="firman putra"
+            android:textColor="@color/colorSecondaryText"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_width="0dp"
+            android:textStyle="normal"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/ic_email_black_24dp"
+            android:alpha="0.6"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:text="fadetia@gmail.com"
+            android:textColor="@color/colorSecondaryText"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_width="0dp"
+            android:textStyle="normal"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/ic_place_black_24dp"
+            android:alpha="0.6"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:text="dukuh menanggal"
+            android:textColor="@color/colorSecondaryText"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_width="0dp"
+            android:textStyle="normal"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/ic_location_city_black_24dp"
+            android:alpha="0.6"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:text="surabaya"
+            android:textColor="@color/colorSecondaryText"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_width="0dp"
+            android:textStyle="normal"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/ic_note_black_24dp"
+            android:alpha="0.6"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/tv_postal_code"
+            android:text="62262"
+            android:textColor="@color/colorSecondaryText"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_width="0dp"
+            android:textStyle="normal"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

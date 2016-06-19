@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Forms</string>
+    <string name="save">Save</string>
+
+    <!--form text and hint-->
+
+    <string name="detail">Detail</string>
+    <string name="register">Register</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="postal_code">Postal code</string>
+
+    <!--error checking-->
+
+    <string name="required">this field is required</string>
+    <string name="must_email">this must be an email address</string>
+
+</resources>
